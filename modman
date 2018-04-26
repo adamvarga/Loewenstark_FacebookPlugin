@@ -1,0 +1,9 @@
+src/app/code/local/Loewenstark/FacebookPlugin                                                   app/code/local/Loewenstark/FacebookPlugin
+src/app/design/frontend/base/default/layout/ls_facebookplugin.xml                               app/design/frontend/base/default/layout/ls_facebookplugin.xml
+src/app/design/frontend/base/default/template/loewenstark/facebookplugin/                       app/design/frontend/base/default/template/loewenstark/facebookplugin/
+src/app/etc/modules/Loewenstark_FacebookPlugin.xml                                              app/etc/modules/Loewenstark_FacebookPlugin.xml
+src/skin/frontend/base/default/css/facebookplugin/facebook.css                                  skin/frontend/base/default/css/facebookplugin/facebook.css
+src/skin/frontend/base/default/images/facebookplugin/facebook_logo.png                          skin/frontend/base/default/images/facebookplugin/facebook_logo.png
+
+
+

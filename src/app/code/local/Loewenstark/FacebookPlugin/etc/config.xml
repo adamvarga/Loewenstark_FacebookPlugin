@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Loewenstark_FacebookPlugin>
+            <version>1.0.0</version>
+        </Loewenstark_FacebookPlugin>
+    </modules>
+    <global>
+        <helpers>
+            <ls_facebookplugin>
+                <class>Loewenstark_FacebookPlugin_Helper</class>
+            </ls_facebookplugin>
+        </helpers>
+        <blocks>
+            <ls_facebookplugin>
+                <class>Loewenstark_FacebookPlugin_Block</class>
+            </ls_facebookplugin>
+        </blocks>
+        <models>
+            <ls_facebookplugin>
+                <class>Loewenstark_FacebookPlugin_Model</class>
+            </ls_facebookplugin>
+        </models>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <ls_facebookplugin>
+                    <file>ls_facebookplugin.xml</file>
+                </ls_facebookplugin>
+            </updates>
+        </layout>
+    </frontend>
+</config>

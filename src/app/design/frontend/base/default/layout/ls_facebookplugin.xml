@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <reference name="footer">
+            <block type="ls_facebookplugin/facebook" name="facebook.plugin" template="loewenstark/facebookplugin/facebook.phtml"/>
+        </reference>
+        <reference name="before_body_end">
+            <block type="ls_facebookplugin/facebook" name="facebook.script" template="loewenstark/facebookplugin/facebook_script.phtml"/>
+        </reference>
+    </default>
+</layout>

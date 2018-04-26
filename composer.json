@@ -1,0 +1,21 @@
+{
+  "name": "loewenstark/facebookplugin",
+  "license": "GPL-3.0",
+  "type": "magento-module",
+  "description": "Dynamical Facebook Plugin",
+  "homepage": "https://github.com/adamvarga/Loewenstark_FacebookPlugin",
+  "require": {
+    "php": ">=5.3"
+  },
+  "suggest": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors": [
+    {
+      "name": "Adam Varga",
+      "email": "adamvarga@gmx.net",
+      "role": "Author/Maintainer"
+    }
+  ]
+}
+ 

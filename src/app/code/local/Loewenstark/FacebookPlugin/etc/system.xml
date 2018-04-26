@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <ls_facebookplugin translate="label">
+            <label>Loewenstark</label>
+            <sort_order>150</sort_order>
+        </ls_facebookplugin>
+    </tabs>
+    <sections>
+        <ls_facebookplugin translate="label" module="adminhtml">
+            <label>Facebook Plugin</label>
+            <tab>ls_facebookplugin</tab>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label comment">
+                    <label>General Setup</label>
+                    <sort_order>50</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <comment><![CDATA[Modul based on<a href="https://developers.facebook.com/docs/plugins/page-plugin/" target='_blank'><strong>Facebook Plage Plugin</strong></a>]]></comment>
+                    <fields>
+                        <active translate="label">
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </active>
+                        <name translate="label">
+                            <label>Plugin name</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[The name of the Facebook Page]]></comment>
+                        </name>
+                        <href translate="label">
+                            <label>Href</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[The URL of the Facebook Page]]></comment>
+                        </href>
+                    </fields>
+                </general>
+                <general_plugin_setup translate="label comment">
+                    <label>Display Setup</label>
+                    <sort_order>99</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <width translate="label">
+                            <label>Width</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[The pixel width of the plugin. Min. is <strong>180</strong> & Max. is <strong>500</strong> <br> Default: <strong>340</strong>]]></comment>
+                        </width>
+                        <height translate="label">
+                            <label>Height</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[The pixel height of the plugin. Min. is <strong>70</strong> <br> Default: <strong>500</strong>]]></comment>
+                        </height>
+                        <tabs translate="label">
+                            <label>Tabs</label>
+                            <frontend_type>multiselect</frontend_type>
+                            <source_model>ls_facebookplugin/system_config_source_tabs</source_model>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Tabs to render i.e. timeline, events, messages. For example: select multiple tabs, i.e. timeline, events. <br> Default: <strong>timeline</strong>]]></comment>
+                        </tabs>
+                        <hide_cover translate="label">
+                            <label>Hide Cover</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>70</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Hide cover photo in the header. <br> Default: <strong>false</strong>]]></comment>
+                        </hide_cover>
+                        <show_facepile translate="label">
+                            <label>Show Facepile</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>80</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Show profile photos when friends like this. <br> Default: <strong>true</strong>]]></comment>
+                        </show_facepile>
+                        <small_header translate="label">
+                            <label>Small Header</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Use the small header instead. <br> Default: <strong>false</strong>]]></comment>
+                        </small_header>
+                    </fields>
+                </general_plugin_setup>
+            </groups>
+        </ls_facebookplugin>
+    </sections>
+</config>
